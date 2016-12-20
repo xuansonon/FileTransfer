@@ -3,11 +3,12 @@ A Java console-based application that allows a client to retrieve a file from a 
 <br />
 <br />
 **How to start the application**
-```
 You need to start the Server first:
+```
 java TCPServer [IP-Address] [Port-Number]
-
+```
 It is then you can start the Client to retrieve files:
+```
 java TCPClient [IP-Address] [Port-Number] [File-Name]
 ```
 
